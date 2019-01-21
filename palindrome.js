@@ -13,7 +13,6 @@ function palindrome(str) {
   });
 }
 
-module.exports = palindrome;
 
 // function palindrome(str) {
 //   const reversed = str
