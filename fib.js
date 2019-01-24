@@ -34,7 +34,7 @@ function slowFib(n) {
 const fib = memoize(slowFib);
 
 
-
+// option 2
 // function fib(n) {
 //   const result = [0, 1];
 //
