@@ -32,7 +32,7 @@ function steps(n, row = 0, stair = '') {
   steps(n, row, stair + add);
 }
 
-module.exports = steps;
+
 
 // function steps(n) {
 //   for (let row = 0; row < n; row++) {
