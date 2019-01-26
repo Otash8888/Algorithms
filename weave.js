@@ -41,4 +41,4 @@ function weave(sourceOne, sourceTwo) {
   return q;
 }
 
-module.exports = weave;
+
