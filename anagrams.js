@@ -22,7 +22,7 @@ function cleanString(str) {
     .join('');
 }
 
-module.exports = anagrams;
+
 
 // function anagrams(stringA, stringB) {
 //   const aCharMap = buildCharMap(stringA);
