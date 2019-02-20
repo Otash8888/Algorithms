@@ -13,7 +13,7 @@ Input: "cbbd"
 Output: "bb"
 */
 
-// with a bad time complexity
+// with a bad time complexity 1
 var findPalindrome = (s) => {
   let reversed = s.split('').reverse().join('')
   return reversed === s
@@ -23,9 +23,9 @@ var longestPalindrome = function(s) {
   let word = ''
   let arrayOfPalindromes = []
   let longestPalindromes = ''
-if (s.length <= 1) {
+  if (s.length <= 1) {
     return s
-}
+  }
   for(let i = 0; i < s.length; i++){
     word = s[i]
     for (let j = i+1; j < s.length; j++){
@@ -39,12 +39,27 @@ if (s.length <= 1) {
     }
   }
     if(arrayOfPalindromes.length){
-        arrayOfPalindromes.sort((a,b)=>b.length - a.length)
-        longestPalindromes = arrayOfPalindromes[0]
-       }
+      arrayOfPalindromes.sort((a,b)=>b.length - a.length)
+      longestPalindromes = arrayOfPalindromes[0]
+    }
         
     if(!longestPalindromes){
-       longestPalindromes = s[0]
-       }
+      longestPalindromes = s[0]
+    }
   return longestPalindromes
 }
+
+// with a bad time complexity 2
+
+var longestPalindrome = function(s) {
+  let longest = ''
+    for(let i=0; i< s.length; i++) {
+        for(let j=i; j<s.length; j++) {
+          let currentString = s.slice(i, j+1)         
+          if(currentString === currentString.split("").reverse().join("") && longest.length <= currentString.length) {
+            longest = currentString
+          }
+        }
+    }
+  return longest
+};
