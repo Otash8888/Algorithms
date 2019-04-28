@@ -37,7 +37,11 @@ function readLine() {
 
 // Complete the aVeryBigSum function below.
 function aVeryBigSum(ar) {
-   
+    let totalSum = 0
+    ar.forEach((item) => {
+        totalSum += item
+    })
+    return totalSum;
 }
 
 function main() {
