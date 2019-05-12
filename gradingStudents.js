@@ -22,3 +22,11 @@
 
 // grades: an array of integers representing grades before rounding
 
+
+// Sample Input 0
+
+// 4
+// 73
+// 67
+// 38
+// 33
