@@ -38,3 +38,28 @@
 // 67
 // 40
 // 33
+
+
+// Solution
+function gradingStudents(grades) {
+    let resultArr = []
+    grades.forEach((item) => {
+        if (item % 5 !== 0 && item >= 38) {
+            let nextMultipleOfFive = item
+
+            while (nextMultipleOfFive % 5 !== 0) {
+                nextMultipleOfFive += 1
+            }
+
+            if (nextMultipleOfFive - item < 3) {
+                resultArr.push(nextMultipleOfFive)
+            } else {
+                resultArr.push(item)
+            }
+
+        } else {
+            resultArr.push(item)
+        }  
+    })
+    return resultArr
+}
