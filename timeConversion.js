@@ -10,3 +10,7 @@
 // timeConversion has the following parameter(s):
 
 // s: a string representing time in 12 hour format
+
+// Constraints
+
+// All input times are valid
