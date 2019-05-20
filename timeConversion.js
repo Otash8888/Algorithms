@@ -22,3 +22,20 @@
 // Sample Output 0
 
 // 19:05:45
+
+
+
+
+
+function timeConversion(s) {
+     s = s.split(':')
+    if (parseInt(s[0]) === 12 && s[2][2] === 'A') {
+        s[0] = '00'
+    } else if (parseInt(s[0]) < 12 && s[2][2] === 'P') {
+        s[0] = (parseInt(s[0]) + 12).toString()
+    }
+    s[2] = s[2].slice(0, 2)
+    
+    return s.join(':')
+
+}
