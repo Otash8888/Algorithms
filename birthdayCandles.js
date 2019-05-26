@@ -8,3 +8,6 @@
 //Complete the function birthdayCakeCandles in the editor below. It must return an integer representing the number of candles she can blow out.
 // birthdayCakeCandles has the following parameter(s):
 // ar: an array of integers representing candle heights
+
+
+//Sample input
