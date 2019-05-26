@@ -16,3 +16,9 @@
 
 //Sample Output
 //2 
+
+
+
+function birthdayCakeCandles(ar) {
+    
+}
