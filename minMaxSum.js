@@ -17,5 +17,15 @@
 //Solution
 
 function miniMaxSum(arr) {
-    
+    let sArr = arr.sort()
+    let minTotal = 0
+    let maxTotal = 0
+    let j = sArr.length - 1
+    for (let i = 1; i < sArr.length; i++){
+        j -= 1
+        minTotal += sArr[j]
+        maxTotal += sArr[i]
+
+    }
+    console.log(minTotal + ' ' + maxTotal)
 }
