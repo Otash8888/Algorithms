@@ -13,3 +13,9 @@
 
 // Sample Output
 // 10 14
+
+//Solution
+
+function miniMaxSum(arr) {
+    
+}
