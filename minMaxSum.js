@@ -7,3 +7,7 @@
 
 //Function Description
 // Complete the miniMaxSum function in the editor below. It should print two space-separated integers on one line: the minimum sum and the maximum sum of 4 of 5 elements.
+
+// Sample Input
+// 1 2 3 4 5
+
