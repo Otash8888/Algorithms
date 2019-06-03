@@ -6,5 +6,4 @@
 //16 24
 
 //Function Description
-
 // Complete the miniMaxSum function in the editor below. It should print two space-separated integers on one line: the minimum sum and the maximum sum of 4 of 5 elements.
