@@ -23,3 +23,8 @@
 
 // Sample Output 
 // YES
+
+// Complete the isValid function below.
+function isValid(s) {
+   
+}
