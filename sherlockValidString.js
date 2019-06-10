@@ -11,3 +11,6 @@
 // Input Format
 
 //A single string s.
+
+// Sample Input 0
+//aabbcd
