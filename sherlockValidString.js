@@ -26,5 +26,37 @@
 
 // Complete the isValid function below.
 function isValid(s) {
-   
+    let obj = {}
+
+    for (let i = 0; i < s.length; i++) {
+        if (!obj[s[i]]) {
+            obj[s[i]] = 1
+        } else if (obj[s[i]]) {
+            obj[s[i]] += 1
+        }
+    }
+
+    let arrOfValues = Object.values(obj)
+    let x = arrOfValues[0]
+    let y = 1
+    let response = ''
+    let newArr = []
+
+    for (let i = 0; i < arrOfValues.length; i++) {
+        if (arrOfValues[i] === x + 1 || arrOfValues[i] === y) {
+            newArr.push(arrOfValues[i])
+            x = -1
+            y = 0
+        } else if (arrOfValues[i] === arrOfValues[0]) {
+            newArr.push(arrOfValues[i])
+        }
+    }
+
+    if (arrOfValues.length === newArr.length) {
+        response = 'YES'
+    } else {
+        response = 'NO'
+    }
+
+    return response
 }
