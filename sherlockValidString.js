@@ -14,3 +14,6 @@
 
 // Sample Input 0
 //aabbcd
+
+// Sample Output 0
+// NO
