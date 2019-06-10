@@ -12,11 +12,14 @@
 
 //A single string s.
 
-// Sample Input 0
+// Sample Input 
 //aabbcd
 
-// Sample Output 0
+// Sample Output 
 // NO
 
-// Sample Input 2
+// Sample Input 
 //abcdefghhgfedecba
+
+// Sample Output 
+// YES
