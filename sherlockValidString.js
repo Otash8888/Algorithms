@@ -7,3 +7,7 @@
 // Complete the isValid function in the editor below. It should return either the string YES or the string NO.
 
 // isValid has the following parameter(s):
+
+// Input Format
+
+//A single string s.
