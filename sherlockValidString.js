@@ -17,3 +17,6 @@
 
 // Sample Output 0
 // NO
+
+// Sample Input 2
+//abcdefghhgfedecba
