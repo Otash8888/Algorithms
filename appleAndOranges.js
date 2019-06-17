@@ -32,3 +32,10 @@
 // The third line contains two space-separated integers denoting the respective values of  and . 
 // The fourth line contains  space-separated integers denoting the respective distances that each apple falls from point . 
 // The fifth line contains  space-separated integers denoting the respective distances that each orange falls from point .
+
+// Output Format
+
+// Print two integers on two different lines:
+
+// The first integer: the number of apples that fall on Sam's house.
+// The second integer: the number of oranges that fall on Sam's house.
