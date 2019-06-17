@@ -39,3 +39,7 @@
 
 // The first integer: the number of apples that fall on Sam's house.
 // The second integer: the number of oranges that fall on Sam's house.
+
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
+
+}
