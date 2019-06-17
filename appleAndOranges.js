@@ -43,4 +43,8 @@
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
    let applesInHouse = 0
    let orangesInHouse = 0
+   
+   for (let i = 0; i < Math.max(apples.length, oranges.length); i++) {
+   
+   }
 }
