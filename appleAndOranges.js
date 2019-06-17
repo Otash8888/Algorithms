@@ -45,6 +45,14 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
    let orangesInHouse = 0
    
    for (let i = 0; i < Math.max(apples.length, oranges.length); i++) {
+      if ((apples[i] + a) >= s && (apples[i] + a) <= t) {
+            applesInHouse += 1
+        }
+
+        if ((oranges[i] + b) >= s && (oranges[i] + b) <= t) {
+            orangesInHouse += 1
+        }
+    }
+    console.log(applesInHouse + '\n' + orangesInHouse)
    
-   }
 }
