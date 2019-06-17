@@ -41,5 +41,6 @@
 // The second integer: the number of oranges that fall on Sam's house.
 
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
-
+   let applesInHouse = 0
+   let orangesInHouse = 0
 }
