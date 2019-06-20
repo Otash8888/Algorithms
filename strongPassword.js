@@ -5,3 +5,6 @@
 // It contains at least one lowercase English character.
 // It contains at least one uppercase English character.
 // It contains at least one special character. The special characters are: !@#$%^&*()-+
+
+
+//She typed a random string of length  in the password field but wasn't sure if it was strong. Given the string she typed, can you find the minimum number of characters she must add to make her password strong?
