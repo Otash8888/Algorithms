@@ -75,6 +75,23 @@ function minimumNumber(n, password) {
         rtnValue: 4
 
     }
+    
+     for (let i = 0; i < lower_case.length; i++) {
+            if (i < numbers.length) {
+                numbersObj[numbers[i]] = true
+            }
+            if (i < lower_case.length) {
+                lower_caseObj[lower_case[i]] = true
+            }
+            if (i < upper_case.length) {
+                upper_caseObj[upper_case[i]] = true
+            }
+            if (i < special_characters.length) {
+                special_charactersObj[special_characters[i]] = true
+            }
+        }
+
+
 
        
     
