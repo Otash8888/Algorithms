@@ -53,3 +53,11 @@
 // Explanation 1
 
 // The password isn't strong, but she can make it strong by adding a single digit.
+
+
+function minimumNumber(n, password) {
+    // Return the minimum number of characters to make the password strong
+    
+        
+    
+}
