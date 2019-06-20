@@ -35,3 +35,10 @@
 // Sample Output 0
 
 // 3
+
+
+// Explanation 0
+
+// She can make the password strong by adding 3 characters, for example, $hk, turning the password into Ab1$hk which is strong.
+
+// 2 characters aren't enough since the length must be at least 6.
