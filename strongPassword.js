@@ -92,38 +92,36 @@ function minimumNumber(n, password) {
         }
 
     
-        for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
 
-            if (numbersObj[password[i]] && !rtn.number) {
-                rtn.number = true
-                rtn.rtnValue -= 1
-            }
-            if (lower_caseObj[password[i]] && !rtn.lower_case) {
-                rtn.lower_case = true
-                rtn.rtnValue = rtn.rtnValue - 1
-            }
-            if (upper_caseObj[password[i]] && !rtn.upper_case) {
-                rtn.upper_case = true
-                rtn.rtnValue -= 1
-            }
-            if (special_charactersObj[password[i]] && !rtn.special_character) {
-                rtn.special_character = true
-                rtn.rtnValue -= 1
-            }
-        
-             if (n < 6 && 6 - n > rtn.rtnValue) {
-            rtn.rtnValue = 6 - n
+        if (numbersObj[password[i]] && !rtn.number) {
+            rtn.number = true
+            rtn.rtnValue -= 1
+        }
+        if (lower_caseObj[password[i]] && !rtn.lower_case) {
+            rtn.lower_case = true
+            rtn.rtnValue = rtn.rtnValue - 1
+        }
+        if (upper_caseObj[password[i]] && !rtn.upper_case) {
+            rtn.upper_case = true
+            rtn.rtnValue -= 1
+        }
+        if (special_charactersObj[password[i]] && !rtn.special_character) {
+            rtn.special_character = true
+            rtn.rtnValue -= 1
         }
 
-        return rtn.rtnValue
-
-
+         if (n < 6 && 6 - n > rtn.rtnValue) {
+        rtn.rtnValue = 6 - n
         }
-       
-        
 
+    return rtn.rtnValue
 
-
-       
-    
 }
+       
+        
+
+
+
+       
+
