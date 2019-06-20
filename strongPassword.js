@@ -15,3 +15,9 @@
 // lower_case = "abcdefghijklmnopqrstuvwxyz"
 // upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 // special_characters = "!@#$%^&*()-+"
+
+// Input Format
+
+// The first line contains an integer  denoting the length of the string.
+
+// The second line contains a string consisting of  characters, the password typed by Louise. Each character is either a lowercase/uppercase English alphabet, a digit, or a special character.
