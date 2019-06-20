@@ -42,3 +42,14 @@
 // She can make the password strong by adding 3 characters, for example, $hk, turning the password into Ab1$hk which is strong.
 
 // 2 characters aren't enough since the length must be at least 6.
+
+// Sample Input 1
+
+// 11
+// #HackerRank
+// Sample Output 1
+
+// 1
+// Explanation 1
+
+// The password isn't strong, but she can make it strong by adding a single digit.
