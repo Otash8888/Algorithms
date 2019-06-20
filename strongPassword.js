@@ -21,3 +21,8 @@
 // The first line contains an integer  denoting the length of the string.
 
 // The second line contains a string consisting of  characters, the password typed by Louise. Each character is either a lowercase/uppercase English alphabet, a digit, or a special character.
+
+
+// Output Format
+
+// Print a single line containing a single integer denoting the answer to the problem.
