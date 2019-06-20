@@ -26,3 +26,12 @@
 // Output Format
 
 // Print a single line containing a single integer denoting the answer to the problem.
+
+
+// Sample Input 0
+
+// 3
+// Ab1
+// Sample Output 0
+
+// 3
