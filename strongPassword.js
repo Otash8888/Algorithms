@@ -57,7 +57,25 @@
 
 function minimumNumber(n, password) {
     // Return the minimum number of characters to make the password strong
-    
-        
+    let numbers = "0123456789"
+    let lower_case = "abcdefghijklmnopqrstuvwxyz"
+    let upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    let special_characters = "!@#$%^&*()-+"
+
+    let numbersObj = {}
+    let lower_caseObj = {}
+    let upper_caseObj = {}
+    let special_charactersObj = {}
+
+    let rtn = {
+        number: false,
+        lower_case: false,
+        upper_case: false,
+        special_character: false,
+        rtnValue: 4
+
+    }
+
+       
     
 }
