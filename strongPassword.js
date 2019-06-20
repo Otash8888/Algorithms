@@ -8,3 +8,10 @@
 
 
 //She typed a random string of length  in the password field but wasn't sure if it was strong. Given the string she typed, can you find the minimum number of characters she must add to make her password strong?
+
+// the set of types of characters in a form you can paste in your solution:
+
+// numbers = "0123456789"
+// lower_case = "abcdefghijklmnopqrstuvwxyz"
+// upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// special_characters = "!@#$%^&*()-+"
