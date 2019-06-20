@@ -110,7 +110,12 @@ function minimumNumber(n, password) {
                 rtn.special_character = true
                 rtn.rtnValue -= 1
             }
+        
+             if (n < 6 && 6 - n > rtn.rtnValue) {
+            rtn.rtnValue = 6 - n
+        }
 
+        return rtn.rtnValue
 
 
         }
