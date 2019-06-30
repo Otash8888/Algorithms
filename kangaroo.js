@@ -34,5 +34,9 @@
 
 
 function kangaroo(x1, v1, x2, v2) {
-    
+    if () {
+        return 'YES'
+    } else {
+        return 'NO'
+    }
 }
