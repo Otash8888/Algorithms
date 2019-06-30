@@ -30,3 +30,9 @@
 // Sample Output 
 
 // YES
+
+
+
+function kangaroo(x1, v1, x2, v2) {
+    
+}
