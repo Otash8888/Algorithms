@@ -21,3 +21,12 @@
 // Print YES if they can land on the same location at the same time; otherwise, print NO.
 
 // Note: The two kangaroos must land at the same location after making the same number of jumps.
+
+
+// Sample Input 
+
+// 0 3 4 2
+
+// Sample Output 
+
+// YES
