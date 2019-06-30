@@ -15,3 +15,9 @@
 
 // x1, v1: integers, starting position and jump distance for kangaroo 1
 // x2, v2: integers, starting position and jump distance for kangaroo 2
+
+// Output Format
+
+// Print YES if they can land on the same location at the same time; otherwise, print NO.
+
+// Note: The two kangaroos must land at the same location after making the same number of jumps.
