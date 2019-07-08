@@ -9,3 +9,5 @@
 // plusMinus has the following parameter(s):
 
 // arr: an array of integers
+// The first line contains an integer, , denoting the size of the array. 
+// The second line contains  space-separated integers describing an array of numbers 
