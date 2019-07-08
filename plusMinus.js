@@ -11,3 +11,10 @@
 // arr: an array of integers
 // The first line contains an integer, , denoting the size of the array. 
 // The second line contains  space-separated integers describing an array of numbers 
+
+
+// You must print the following  lines:
+
+// A decimal representing of the fraction of positive numbers in the array compared to its size.
+// A decimal representing of the fraction of negative numbers in the array compared to its size.
+// A decimal representing of the fraction of zeros in the array compared to its size.
