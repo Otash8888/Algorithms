@@ -31,7 +31,6 @@
 // 0.333333
 // 0.166667
 
-
 function plusMinus(arr) {
     let p = 0
     let n = 0
@@ -48,4 +47,9 @@ function plusMinus(arr) {
         }
     }
 
+    [(p / len).toFixed(6), (n / len).toFixed(6), (zero / len).toFixed(6)].forEach((val)         => {
+        console.log(val)
+    })
+
 }
+
