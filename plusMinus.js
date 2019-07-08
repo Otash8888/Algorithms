@@ -18,3 +18,8 @@
 // A decimal representing of the fraction of positive numbers in the array compared to its size.
 // A decimal representing of the fraction of negative numbers in the array compared to its size.
 // A decimal representing of the fraction of zeros in the array compared to its size.
+
+// Sample Input
+
+// 6
+// -4 3 -9 0 4 1   
