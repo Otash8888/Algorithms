@@ -39,6 +39,13 @@ function plusMinus(arr) {
     let len = arr.length
 
     for (let i = 0; i < len; i++) {
-     }
+        if (arr[i] > 0) {
+            p++
+        } else if (arr[i] < 0) {
+            n++
+        } else {
+            zero++
+        }
+    }
 
 }
