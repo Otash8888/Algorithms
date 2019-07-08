@@ -38,6 +38,7 @@ function plusMinus(arr) {
     let zero = 0
     let len = arr.length
 
-   
+    for (let i = 0; i < len; i++) {
+     }
 
 }
