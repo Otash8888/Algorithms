@@ -16,3 +16,13 @@
 // staircase has the following parameter(s):
 
 // n: an integer
+
+// Input Format
+
+// A single integer,n , denoting the size of the staircase.
+
+// Output Format
+
+// Print a staircase of size n using # symbols and spaces.
+
+// Note: The last line must have 0 spaces in it.
