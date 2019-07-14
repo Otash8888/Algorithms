@@ -45,6 +45,7 @@ function staircase(n) {
     let s = ' '
     let t = n - 1
     
-
- 
+    whil (i = 0){
+        
+    }
 }
