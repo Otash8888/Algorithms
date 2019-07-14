@@ -26,3 +26,7 @@
 // Print a staircase of size n using # symbols and spaces.
 
 // Note: The last line must have 0 spaces in it.
+
+// Sample Input
+
+// 6 
