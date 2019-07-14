@@ -45,7 +45,8 @@ function staircase(n) {
     let s = ' '
     let t = n - 1
     
-    whil (i = 0){
-        
+    while (i = 0){
+       console.log(s.repeat(t-i) + h.repeat(i+1))
+        i++
     }
 }
