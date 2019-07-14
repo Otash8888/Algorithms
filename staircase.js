@@ -44,9 +44,8 @@ function staircase(n) {
     let h = '#'
     let s = ' '
     let t = n - 1
-    
-    while (i > 0){
-       console.log(s.repeat(t-i) + h.repeat(i+1))
-        i++
+    for (let i = 0; i <= t; i++){
+        console.log(s.repeat(t-i) + h.repeat(i+1))
     }
+
 }
