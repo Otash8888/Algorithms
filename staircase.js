@@ -41,5 +41,10 @@
 // ######
 
 function staircase(n) {
+    let h = '#'
+    let s = ' '
+    let t = n - 1
+    
+
  
 }
